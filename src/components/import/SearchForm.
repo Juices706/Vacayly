@@ -1,0 +1,15 @@
+import AutocompleteInput from "./AutocompleteInput";
+
+// ... inside the form ...
+<div className="flex gap-4">
+  <AutocompleteInput
+    placeholder="From (e.g. JNB)"
+    value={from}
+    onChange={setFrom}
+  />
+  <AutocompleteInput
+    placeholder="To (e.g. CPT)"
+    value={to}
+    onChange={setTo}
+  />
+</div>
